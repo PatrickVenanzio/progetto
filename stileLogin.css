@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(180deg, #EC8DAE 0%, #CF55D2 64.31%,#9B52F9 100%);
+    background-repeat:no-repeat;
+    min-height: 100% !important;
+}
+html {
+    position:relative;  
+    min-height: 100% !important; 
+}
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Titolo';
+    src: url('font/raleway/Raleway-Black.ttf')    
+}
+@font-face {
+    font-family: 'Testo';
+    src: url('font/raleway/Raleway-Light.ttf');
+}
+#titolo{
+    font-family: 'Titolo';
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom:1em;
+}
+#scritte{
+    color:rgb(216, 72, 101);
+    margin:0.5em 0;
+}
+#scrittePiccole{
+    font-size:smaller;
+    margin:0.5em 0;
+    color:black;    
+}
+.contenitore {
+    width:100%;
+    height:100%;
+}
+.contenitoreLogin {
+    margin:auto;
+
+    background:white;
+    border-radius: 0.25rem;
+    max-width: 500px;
+}
+.riquadroLogin {
+    padding:3em 1em 1em 1em;
+    font-family: 'Testo';
+    min-width:300px;
+    width:80%;
+    margin:auto;
+}
+.casellaDati {
+    width:100%;
+    background:gainsboro;
+    padding:0.7em;
+    font-size:1rem;
+    font-family: 'Testo';
+    border-radius: 0.25rem;
+    border:0px;
+}
+.bottone{
+    width:100%;
+    background:rgb(226, 80, 80);
+    font-size:1rem;
+    font-family: 'Titolo';
+    text-align: center;
+    padding:0.7em;
+    color:white;
+    margin:2.5em 0;
+    border-radius: 0.25rem;
+    border:0px;
+}
